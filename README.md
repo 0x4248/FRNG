@@ -25,6 +25,60 @@ This then generates a long hexadecimal number.
 - OpenCV
 - Numpy
 
+
+### Installing Perquisites
+
+#### Python 3
+
+```bash
+# Debian/Ubuntu
+sudo apt install python3
+
+# Arch
+sudo pacman -S python3
+
+# Fedora
+sudo dnf install python3
+
+# OpenSUSE
+sudo zypper install python3
+
+# Gentoo
+sudo emerge dev-lang/python
+```
+
+#### OpenCV
+
+```bash
+# Debian/Ubuntu
+sudo apt install python3-opencv
+
+# Arch
+sudo pacman -S opencv
+
+# Fedora
+sudo dnf install opencv
+
+# OpenSUSE
+sudo zypper install opencv
+```
+
+#### Numpy
+
+```bash
+# Debian/Ubuntu
+sudo apt install python3-numpy
+
+# Arch
+sudo pacman -S python-numpy
+
+# Fedora
+sudo dnf install python3-numpy
+
+# OpenSUSE
+sudo zypper install python3-numpy
+```
+
 ## Licence
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENCE](LICENCE) file for details.
