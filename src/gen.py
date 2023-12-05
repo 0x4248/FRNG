@@ -4,8 +4,17 @@
 # By: Lewis Evans
 
 import sys
-import cv2
-import numpy as np
+try:
+    import cv2
+except ImportError:
+    print("Error importing cv2, please install opencv-python")
+    sys.exit(1)
+
+try:
+    import numpy as np
+except ImportError:
+    print("Error importing numpy, please install numpy")
+    sys.exit(1)
 
 def threshold(image, output_file, thresh=100):
     img = cv2.imread(image)
