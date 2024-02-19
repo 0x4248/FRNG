@@ -7,13 +7,13 @@ import sys
 try:
     import cv2
 except ImportError:
-    print("Error importing cv2, please install opencv-python")
+    print("Error importing cv2, please install opencv-python via pip install opencv-python")
     sys.exit(1)
 
 try:
     import numpy as np
 except ImportError:
-    print("Error importing numpy, please install numpy")
+    print("Error importing numpy, please install numpy via pip install numpy")
     sys.exit(1)
 
 def threshold(image, output_file, thresh=100):
