@@ -1,7 +1,7 @@
 # FRNG
 # Create random binary file from a image containing fire
-# Github: https://www.guthub.com/lewisevans2007/FRNG
-# By: Lewis Evans
+# Github: https://www.guthub.com/0x4248/FRNG
+# By: 0x4248
 
 import sys
 try:
